@@ -184,19 +184,14 @@ img {
 }
 
 figure {
-  display: inline-block;
-  margin: 0;
-  /* Fallback for older browsers */
-  max-width: 100%;
-  /* Modern logical properties */
-  max-inline-size: 100%;
+  margin: 2rem auto;
+  max-width: 500px;
 }
 
 figure img {
-  /* Fallback for older browsers */
-  max-height: 500px;
-  /* Modern logical properties */
-  max-block-size: 500px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (min-width: 37.5em) {
